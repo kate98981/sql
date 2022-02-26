@@ -37,7 +37,6 @@ values	('1000'),
 -- 	id. Serial  primary key,
 -- 	employee_id. Int, not null, unique
 -- 	salary_id. Int, not null
-
 create table employee_salary(
 	id serial primary key,
 	employee_id int not null unique,
